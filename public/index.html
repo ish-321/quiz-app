@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #button{
+        background-color: grey;
+        border-radius: 20px;
+        width: 130px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    #h1{
+        background-color: rgb(21, 202, 76);
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 20px;
+    }
+
+</style>
+<body id="body">
+
+    <center>
+<h1 id="h1">WellCome To Quaiz App</h1>
+    <input type="button" value="Start Quiz" onclick="quiz()" id="button" width="20px" height="20px">
+    <input type="button" value="Creat Quiz" onclick="admin()" id="button" width="20px" height="20px">
+</center>
+</body>
+<script>
+function quiz(){
+    window.location.href = "quaiz.html"
+}
+function admin(){
+    window.location.href = "adminPanel.html"
+}
+</script>
+</html>

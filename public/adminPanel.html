@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <style>
+#one{
+    font-size: 50px;
+    
+
+}
+.addnew{
+    width: 85px;
+    background-color: antiquewhite;
+}
+#RetarendQUiz{
+    background-color: blue;
+    width: 170px;
+    height: 30px;
+}
+      #manbody{
+          background-color: aqua;
+          
+      }
+
+
+      #nav{
+        background-color: coral;
+        padding: 20px;
+        border-radius: 40px;
+   
+
+        margin-top: 40px;
+
+      }
+     .addnew:active{
+         background-color: orangered;
+     }
+      
+       </style>
+</head>
+<body id="manbody">
+   <center>
+       <div id="nav">
+        <h1 id="one" >Medical preparation practise Test</h1>
+    </div>
+<div id="panel">
+<div id="Qcreate">
+    <h1> Question Create </h1>
+    <form action="" id="form">
+<div>
+    
+    <label>Enter Your  question ?</label><br>
+    <input type="text" id="question" placeholder="" class="field"  size="50px" value="   ?"><br>
+</div>
+<div>
+ <label>Enter Option One</label><br>
+<input type="text" id="option1" placeholder="" class="field"><br>
+
+</div>
+<div>
+ <label>Enter Option Two</label><br>
+    <input type="text" id="option2" placeholder="" class="field"><br>
+</div>
+<div>
+    <label>Enter Option Three</label><br>
+    <input type="text" id="option3" placeholder="" class="field"><br>
+</div>
+<div> 
+    <label>Enter Option Four</label><br>
+    <input type="text" id="option4" placeholder="" class="field"><br>
+</div>
+<div>
+    <label>Enter Correct Answer</label><br>
+    <input type="text" id="answer" placeholder="" class="field"   ><br>
+</div>
+</br>
+<div>
+    <input type="button" value="Add Next" onclick="addNew()" class="addnew">
+    <input type="button" value="Finish" onclick="btn1()" class="addnew">
+
+
+</div>
+</br>
+<input type="button" value="Retarend To Quiz " onclick="quiz1()" id="RetarendQUiz" width="20px" height="25px">
+</form>
+</div>
+</div>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="log">
+        <input type="text" placeholder="Email" id="email" ><br>
+        <input type="password" placeholder="Password" id="password"><br>
+        <input type="button" value="Login" onclick="login()">
+</div> -->
+
+
+
+
+</body>
+<script src="adminPlane.js"></script>
+</html>

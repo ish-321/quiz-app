@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+  <style>
+        #main{
+             margin-left: 30%;
+            
+            margin-top: 15%;
+            display: none;
+        }
+        #nav{
+background-color: chocolate;
+border-radius: 20px;
+            height: 60px;;
+        }
+        #one{
+            font-weight: bolder;
+            color: aliceblue;   
+            font-size: 40px;
+            margin-top: 40px;
+            margin-left: 35%;
+        }
+        button{
+        border-radius: 5px;
+        color: white;
+        background: linear-gradient(90deg, rgb(221, 16, 47), rgb(230, 112, 132));
+        font-weight: bolder;
+        padding: 8px;
+        }
+        #mark{
+            display: none;
+        }
+        #demo{
+            font-size: 40px;
+        }
+        #mark{
+            text-align: center;
+        }
+#panel{
+    display: none;
+}
+    </style>
+</head>
+<body>
+
+    <div id="nav">
+        <h1 id="one">Quiz App </h1>
+    </div>
+
+    <div id="main">
+    <div id="ques">
+   <h1 >Time is only 4 Minuts</h1>
+    </div>
+    <button value="Next" onclick="change()">Next</button>
+    <button value="check" onclick="checkQ()">check for correct Answer</button>
+    
+    <div id='stopWatchTime'></div>
+    
+    <div id="demo" align="center"></div>
+</div>
+
+<button value="check" onclick="start()" id="start">Quize Start</button>
+<h1 id="mark">0</h1>
+<script src="quaiz.js"></script>
+
+</body>
+</html>
